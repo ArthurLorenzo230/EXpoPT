@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #006994;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  max-width: 900px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #006994;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 45%;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+.foto-turma {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
